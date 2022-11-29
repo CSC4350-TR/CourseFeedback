@@ -1,0 +1,139 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #0039A6;
+  overflow: hidden;
+  height: 100px;
+  padding-top: 15px;
+  text-align: center;
+
+}
+.bottomnav {
+  background-color: #0039A6;
+  overflow: hidden;
+  padding-top: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.altbottomnav {
+  background-color: #0039A6;
+  overflow: hidden;
+  height: 100px;
+  padding-top: 15px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0039A6;
+  color: white;
+}
+
+.basic{
+  padding-left: 10px;
+font-family: font-mono;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  width: auto; 
+  background-color: #0039A6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  float: center; 
+  border-radius: 5px;
+  text-align: center; 
+}
+
+input[type=submit]:hover {
+  background-color: #ECF0F1 ;
+}
+
+div.box {
+  padding: 20px;
+  width: 25%; 
+  margin: auto; 
+  border-style: solid;
+  border-radius: 10px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color:  #0039A6;
+  text-align:center;
+}
+
+.form h2 {
+  text-align:left;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-size: 20px;
+}
+
+select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  background-color: #0039A6;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
